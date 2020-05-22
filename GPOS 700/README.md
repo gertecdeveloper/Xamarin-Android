@@ -1,0 +1,1 @@
+Projeto Gertec One para o Dispositivo GPOS700

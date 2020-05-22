@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp">
+
+     <TextView
+        android:text="Funções Impressão GPOS700"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtModelo"
+        android:foregroundGravity="top|center"
+        android:gravity="top|center"
+        android:textStyle="bold"
+        android:textSize="22sp" />
+    <Button
+        android:text="Status Impressora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnStatusImpressora"
+    />
+    <EditText
+        android:hint="Escreva a sua mensagem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:password="false"
+        android:phoneNumber="false"
+        android:id="@+id/txtMensagem"
+    />
+    <TextView
+        android:text="Configuração de Impressão"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:inputType="none"
+        android:id="@+id/textView1"
+    />
+
+    <LinearLayout
+       android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup1"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="Esquerda"
+                    android:layout_weight="1"
+                    android:id="@+id/rbEsquerda"
+                />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Centralizado"
+                    android:layout_weight="1"
+                    android:id="@+id/rbCentralizado"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Direita"
+                    android:id="@+id/rbDireita"/>
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ToggleButton
+                android:text="Negrito"
+                android:layout_weight="1"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:textOff="Negrito"
+                android:textOn="Negrito"
+                android:id="@+id/btnNegrito"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <ToggleButton
+                android:text="Itálico"
+                android:layout_weight="1"
+                android:textOff="Itálico"
+                android:textOn="Itálico"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:id="@+id/btnItalico"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <ToggleButton
+                android:text="Sublinhado"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:id="@+id/btnSublinhado"
+                android:textOn="Sublinhado"
+                android:textOff="Sublinhado"
+            />
+        </LinearLayout>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_weight="1"
+            android:text="Fonte:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="25px"
+            android:minWidth="25px"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:id="@+id/textView2"
+        />
+        <Spinner
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spFonte"
+        />
+        <TextView
+            android:layout_weight="1"
+            android:layout_marginLeft="16dp"
+            android:text="Size:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:textSize="16sp"
+            android:id="@+id/textView3"
+            android:textStyle="bold"
+        />
+        <Spinner
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spTamanho"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <Button
+            android:layout_weight="1"
+            android:text="Imprimir Texto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnImprimirMensagem"
+        />
+        <Button
+            android:layout_weight="1"
+            android:text="Imprimir Imagem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnImprimirImagem"
+        />
+    </LinearLayout>
+    
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="Bar Code Heigth"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:textSize="12sp"
+                android:id="@+id/textView22"
+                android:textStyle="bold"
+            />
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spCodeHeight"
+            />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="Bar Code width"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:textSize="12sp"
+                android:id="@+id/textView23"
+                android:textStyle="bold"
+            />
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spCodeWidth" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="Tipo code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:id="@+id/textView24"
+            />
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spTipoCode"
+            />
+        </LinearLayout>
+
+    </LinearLayout>
+    <Button
+        android:text="Imprimir BarCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/btnImprimirBarCode"/>
+    <Button
+        android:text="Imprimir todas as funções"
+        android:layout_marginTop="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnImprimirTodasFunc"
+    />
+
+</LinearLayout>
