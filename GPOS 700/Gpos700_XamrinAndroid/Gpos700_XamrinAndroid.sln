@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gpos700_XamrinAndroid", "Gpos700_XamrinAndroid\Gpos700_XamrinAndroid.csproj", "{4F9BA836-6851-4B7F-BC43-9AE186DBA368}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F9BA836-6851-4B7F-BC43-9AE186DBA368}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F9BA836-6851-4B7F-BC43-9AE186DBA368}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F9BA836-6851-4B7F-BC43-9AE186DBA368}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4F9BA836-6851-4B7F-BC43-9AE186DBA368}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F9BA836-6851-4B7F-BC43-9AE186DBA368}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F9BA836-6851-4B7F-BC43-9AE186DBA368}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC41A979-82D0-4C73-B55B-643650C133A6}
+	EndGlobalSection
+EndGlobal
