@@ -29,6 +29,8 @@ namespace Gpos700_XamrinAndroid.Impressao
         private GEDI_PRNTR_st_PictureConfig pictureConfig;
         private GEDI_PRNTR_e_Status status;
 
+        private ICL icl = null;
+
         private ConfigPrint configPrint;
         private Typeface typeface;
 
@@ -43,12 +45,6 @@ namespace Gpos700_XamrinAndroid.Impressao
             startGediGPOS700();
         }
 
-        //  TSG 800
-        // public GertecPrinter(Activity act)
-        // {
-        //     this.mainActivity = act;
-        //     startGediTSG800();
-        // }
 
         public void startGediGPOS700()
         {
@@ -56,25 +52,11 @@ namespace Gpos700_XamrinAndroid.Impressao
             {
                 GEDI.Init(this.mainContext);
                 this.iGedi = GEDI.GetInstance(this.mainContext);
+                icl = iGedi.CL;
                 this.iPrintr = iGedi.PRNTR;
                 Thread.Sleep(100);
             })).Start();
         }
-
-        /*
-        public void startGediTSG800()
-        {
-            new Thread(new ThreadStart(() =>
-            {
-                #if __G800__
-                    this.iGedi = new Gedi(this.mainActivity);
-                    this.iGedi = GEDI.GetInstance(this.mainActivity);
-                    this.iPrintr = iGedi.PRNTR;
-                    Thread.Sleep(250);
-                #endif
-            })).Start();
-        }
-        */
 
         private void ImpressoraInit()
         {
@@ -82,6 +64,7 @@ namespace Gpos700_XamrinAndroid.Impressao
             {
                 if (this.iPrintr != null && !isPrintInit)
                 {
+                    icl.PowerOff(); // Desligar Módulo NFC - comando Mandatório antes de enviar comandos para a impressora.
                     this.iPrintr.Init();
                     isPrintInit = true;
                     getStatusImpressora();
@@ -400,11 +383,7 @@ namespace Gpos700_XamrinAndroid.Impressao
 
         public bool IsImpressoraOK()
         {
-            if (this.status.Value == 0)
-            {
-                return true;
-            }
-            return false;
+            return this.status.Value == 0;
         }
 
         public void setConfigImpressao(ConfigPrint config)
@@ -444,7 +423,7 @@ namespace Gpos700_XamrinAndroid.Impressao
                     break;
 
                 default:
-                    this.typeface = Typeface.CreateFromAsset(this.mainContext.Assets, "fonts/" + configPrint.Fonte);
+                    this.typeface = Typeface.CreateFromAsset(this.mainContext.Assets, $"fonts/{configPrint.Fonte}");
                     break;
             }
 

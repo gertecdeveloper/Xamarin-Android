@@ -1,13 +1,12 @@
-﻿using Android.App;
-using Android.OS;
-using Android.Support.V7.App;
-using Android.Runtime;
-using Android.Widget;
+﻿using System;
+using Android.App;
 using Android.Content;
-using System.Collections;
+using Android.OS;
+using Android.Runtime;
+using Android.Support.V7.App;
+using Android.Widget;
+using GertecXamarinAndroid.ExemploSAT.SatPages;
 using GertecXamarinAndroid.Services;
-using System;
-using Android.Views;
 
 namespace GertecXamarinAndroid
 {
@@ -41,7 +40,6 @@ namespace GertecXamarinAndroid
         private void Lv_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
         {
             var select = projetos[e.Position].Name;
-            Console.WriteLine(select);
             switch (select){
                 case "Código de Barras":
                     GoToActivity(typeof(CodBarras));
@@ -54,6 +52,9 @@ namespace GertecXamarinAndroid
                     break;
                 case "NFC Leitura/Gravação":
                     GoToActivity(typeof(Nfc));
+                    break;
+                case "SAT":
+                    GoToActivity(typeof(MenuSat));
                     break;
             }
         }
@@ -85,6 +86,9 @@ namespace GertecXamarinAndroid
             projetos.Add(proj);
 
             proj = new Projeto("NFC Leitura/Gravação", Resource.Drawable.nfc2);
+            projetos.Add(proj);
+
+            proj = new Projeto("SAT", Resource.Drawable.icon_sat);
             projetos.Add(proj);
 
             return projetos;

@@ -539,7 +539,7 @@ namespace GertecXamarinAndroid.Impressao
                     break;
 
                 default:
-                    this.typeface = Typeface.CreateFromAsset(this.mainActivity.Assets, configPrint.Fonte);
+                    this.typeface = Typeface.CreateFromAsset(this.mainActivity.Assets, $"fonts/{configPrint.Fonte}");
                     break;
             }
 

@@ -1,0 +1,106 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="21dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:text="GERSAT - Aplicativo de Ativação"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="39dp" />
+
+    <Button
+        android:id="@+id/btnAtivacaoSat"
+        android:layout_width="282dp"
+        android:layout_height="50dp"
+        android:text="Ativação SAT"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <Button
+        android:id="@+id/btnAssociarAssinaturaSat"
+        android:layout_width="282dp"
+        android:layout_height="50dp"
+        android:text="Associar Assinatura"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <Button
+        android:id="@+id/btnTesteSat"
+        android:layout_width="282dp"
+        android:layout_height="50dp"
+        android:text="Teste SAT"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <Button
+        android:id="@+id/btnConfigRedeSat"
+        android:layout_width="282dp"
+        android:layout_height="50dp"
+        android:text="Configurações de rede"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <Button
+        android:id="@+id/btnAlterarCodSat"
+        android:layout_width="282dp"
+        android:layout_height="50dp"
+        android:text="alterar Código de Ativação"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <Button
+        android:id="@+id/btnOutrasFuncoesSat"
+        android:layout_width="282dp"
+        android:layout_height="50dp"
+        android:text="Outras Ferramentas"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+</LinearLayout>

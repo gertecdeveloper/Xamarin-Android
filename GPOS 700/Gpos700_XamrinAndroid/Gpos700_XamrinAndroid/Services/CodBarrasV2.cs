@@ -73,11 +73,6 @@ namespace Gpos700_XamrinAndroid.Services
             base.OnDestroy();
         }
 
-        public void OnResume()
-        {
-            base.OnResume();
-
-        }
 
         public void OnPermissionDenied(PermissionDeniedResponse p0)
         {

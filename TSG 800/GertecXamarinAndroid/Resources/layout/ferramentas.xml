@@ -1,0 +1,124 @@
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="2"
+    android:padding="2dp"
+    >
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp">
+
+        <TextView
+            android:text="Código de Ativação SAT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@id/txtCodAtivacao"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            />
+
+    </TableRow>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnDesbloquear"
+            android:layout_width="282dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#D6D4D4"
+            android:text="Desbloquear SAT"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+    </LinearLayout>
+    
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="18dp" />
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnBloquear"
+            android:layout_width="282dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#D6D4D4"
+            android:text="Bloquear SAT"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="18dp" />
+    
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnLog"
+            android:layout_width="282dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#D6D4D4"
+            android:text="Extrair log"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="18dp" />
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnAtualizar"
+            android:layout_width="282dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#D6D4D4"
+            android:text="Atualizar Software"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="18dp" />
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnVersao"
+            android:layout_width="282dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#D6D4D4"
+            android:text="Verificar Versão"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+    </LinearLayout>    
+
+</TableLayout>

@@ -6,11 +6,17 @@ using Android.Widget;
 using Android.Content;
 using System;
 using Gpos700_XamrinAndroid.Services;
-using Gpos700_XamrinAndroid.TEF;
+using Gpos700_XamrinAndroid.ExemploTEF;
+using Gpos700_XamrinAndroid.ExemploSAT.SatPages;
+using Android.Hardware.Usb;
 
 namespace Gpos700_XamrinAndroid
 {
-    [Activity(Label = "GertecOne XamarinAndroid", Theme = "@style/Theme.AppCompat.Light.NoActionBar", MainLauncher = true)]
+    [Activity(Label = "GertecOne XamarinAndroid", Theme = "@style/Theme.AppCompat.Light.NoActionBar", MainLauncher = true),
+        MetaData(UsbManager.ActionUsbDeviceAttached, Resource = "@xml/device_filter"),
+        IntentFilter(new[] { "android.hardware.usb.action.USB_DEVICE_ATTACHED", "android.intent.action.MAIN" },
+    Categories = new[] { "android.intent.category.LAUNCHER" })]
+
     public class MainActivity : AppCompatActivity
     {
         private Context context;
@@ -73,6 +79,10 @@ namespace Gpos700_XamrinAndroid
                     //Console.WriteLine("TEF");
                     GoToActivity(typeof(Tef));
                     break;
+                case "SAT":
+                    //Console.WriteLine("SAT");
+                    GoToActivity(typeof(MenuSat));
+                    break;
             }
         }
 
@@ -102,6 +112,9 @@ namespace Gpos700_XamrinAndroid
             projetos.Add(proj);
 
             proj = new Projeto("TEF", Resource.Drawable.pos);
+            projetos.Add(proj);
+
+            proj = new Projeto("SAT", Resource.Drawable.icon_sat);
             projetos.Add(proj);
 
             return projetos;

@@ -18,7 +18,6 @@
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidResgenClass>Resource</AndroidResgenClass>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
-    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
@@ -27,10 +26,12 @@
     <AndroidUseAapt2>true</AndroidUseAapt2>
     <AndroidHttpClientHandlerType>Xamarin.Android.Net.AndroidClientHandler</AndroidHttpClientHandlerType>
     <AndroidKeyStore>true</AndroidKeyStore>
-    <AndroidSigningKeyStore>C:\Users\marcosGuibson\Documents\Guib\projeto_Gertec\Projetos\Xamarin\Chaves\Development_GertecDeveloper_CustomerAPP.keystore</AndroidSigningKeyStore>
+    <AndroidSigningKeyStore>..\..\Chaves\Development_GertecDeveloper_CustomerAPP.keystore</AndroidSigningKeyStore>
     <AndroidSigningStorePass>Development@GertecDeveloper2018</AndroidSigningStorePass>
     <AndroidSigningKeyPass>Development@GertecDeveloper2018</AndroidSigningKeyPass>
     <AndroidSigningKeyAlias>developmentgertecdeveloper_customerapp</AndroidSigningKeyAlias>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <AndroidSupportedAbis>armeabi-v7a;arm64-v8a</AndroidSupportedAbis>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>True</DebugSymbols>
@@ -40,14 +41,8 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
     <AndroidLinkMode>None</AndroidLinkMode>
     <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
-    <AotAssemblies>false</AotAssemblies>
-    <EnableLLVM>false</EnableLLVM>
-    <AndroidEnableProfiledAot>false</AndroidEnableProfiledAot>
-    <BundleAssemblies>false</BundleAssemblies>
-    <AndroidSigningKeyStore>D:\Projetos\Gertec\Xamarin-Android\GPOS 700\Chaves\Development_GertecDeveloper_CustomerAPP.keystore</AndroidSigningKeyStore>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>True</DebugSymbols>
@@ -58,25 +53,22 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AndroidManagedSymbols>true</AndroidManagedSymbols>
-    <AndroidUseSharedRuntime>False</AndroidUseSharedRuntime>
     <AndroidLinkMode>SdkOnly</AndroidLinkMode>
     <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
-    <AotAssemblies>false</AotAssemblies>
-    <EnableLLVM>false</EnableLLVM>
-    <AndroidEnableProfiledAot>false</AndroidEnableProfiledAot>
-    <BundleAssemblies>false</BundleAssemblies>
-    <AndroidSupportedAbis />
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="payment_1.14.13.190715">
-      <HintPath>.\payment_1.14.13.190715.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Mono.Android" />
     <Reference Include="System.Numerics" />
     <Reference Include="System.Numerics.Vectors" />
+    <Reference Include="GPOS700">
+      <HintPath>..\..\GPOS700.dll</HintPath>
+    </Reference>
+    <Reference Include="SatLib">
+      <HintPath>..\..\SatLib.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Impressao\ConfigPrint.cs" />
@@ -94,11 +86,22 @@
     <Compile Include="Services\Impressora.cs" />
     <Compile Include="Services\NfcGedi.cs" />
     <Compile Include="Services\NfcID.cs" />
-    <Compile Include="TEF\Mask.cs" />
-    <Compile Include="TEF\MoneyTextWatcher.cs" />
-    <Compile Include="TEF\RetornoGer7.cs" />
-    <Compile Include="TEF\Tef.cs" />
-    <Compile Include="TEF\Venda.cs" />
+    <Compile Include="ExemploTEF\Mask.cs" />
+    <Compile Include="ExemploTEF\RetornoGer7.cs" />
+    <Compile Include="ExemploTEF\Tef.cs" />
+    <Compile Include="ExemploTEF\Venda.cs" />
+    <Compile Include="ExemploSAT\ServiceSAT\RetornoSat.cs" />
+    <Compile Include="ExemploSAT\ServiceSAT\OperacaoSat.cs" />
+    <Compile Include="ExemploSAT\ServiceSAT\SatFunctions.cs" />
+    <Compile Include="ExemploSAT\SatPages\Alterar.cs" />
+    <Compile Include="ExemploSAT\SatPages\Associar.cs" />
+    <Compile Include="ExemploSAT\SatPages\Ativacao.cs" />
+    <Compile Include="ExemploSAT\SatPages\Ferramentas.cs" />
+    <Compile Include="ExemploSAT\SatPages\Rede.cs" />
+    <Compile Include="ExemploSAT\SatPages\MenuSat.cs" />
+    <Compile Include="ExemploSAT\ServiceSAT\Utils.cs" />
+    <Compile Include="ExemploSAT\SatPages\Teste.cs" />
+    <Compile Include="ExemploSAT\GlobalValues.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -130,6 +133,46 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher_foreground.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher_round.png" />
+    <AndroidResource Include="Resources\drawable\icon_sat.jpeg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\rede.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\teste.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\assinatura.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\ferramentas.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\alterar.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\ativacao.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\menu_sat.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\raw\arq_cancelamento.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\raw\arq_venda.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\NfcID.xml">
@@ -251,6 +294,14 @@
     <AndroidResource Include="Resources\layout\Tef.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\fonts\VECTRA.otf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ExemploSAT\" />
+    <Folder Include="ExemploSAT\SatPages\" />
+    <Folder Include="ExemploSAT\ServiceSAT\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
