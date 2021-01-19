@@ -1,0 +1,354 @@
+adaptive-icon;obj\Release\90\res\mipmap-anydpi-v26\ic_launcher.xml
+adaptive-icon;obj\Release\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
+androidx.constraintlayout.widget.ConstraintLayout;obj\Release\90\res\layout\activity_main.xml
+androidx.constraintlayout.widget.ConstraintLayout;obj\Release\90\res\layout\assinatura.xml
+androidx.constraintlayout.widget.ConstraintLayout;obj\Release\90\res\layout\ativacao.xml
+androidx.constraintlayout.widget.ConstraintLayout;obj\Release\90\res\layout\codbarras.xml
+androidx.constraintlayout.widget.ConstraintLayout;obj\Release\90\res\layout\falagbot.xml
+androidx.constraintlayout.widget.ConstraintLayout;obj\Release\90\res\layout\kioskmode.xml
+androidx.constraintlayout.widget.ConstraintLayout;obj\Release\90\res\layout\menunfc.xml
+androidx.constraintlayout.widget.ConstraintLayout;obj\Release\90\res\layout\menusat.xml
+androidx.constraintlayout.widget.ConstraintLayout;obj\Release\90\res\layout\nfc.xml
+androidx.constraintlayout.widget.ConstraintLayout;obj\Release\90\res\layout\rede.xml
+androidx.constraintlayout.widget.ConstraintLayout;obj\Release\90\res\layout\sensor.xml
+androidx.constraintlayout.widget.ConstraintLayout;obj\Release\90\res\layout\sensor2.xml
+androidx.constraintlayout.widget.ConstraintLayout;obj\Release\90\res\layout\tef.xml
+androidx.constraintlayout.widget.ConstraintLayout;obj\Release\90\res\layout\teste.xml
+attr;C:\Projetos\gbot_XamarinAndroid (1)\gbot_XamarinAndroid\obj\Release\90\lp\129\jl\res\values\values.xml
+attr;C:\Projetos\gbot_XamarinAndroid\obj\Release\90\lp\129\jl\res\values\values.xml
+attr;C:\Projetos\Gbot_XamarinAndroid\obj\Release\90\lp\129\jl\res\values\values.xml
+attr;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\129\jl\res\values\values.xml
+attr;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\54\jl\res\values\values.xml
+attr;C:\Users\marcosGuibson\Desktop\XamarinAndroid\xamarinandroid800\GBOT\obj\Release\90\lp\54\jl\res\values\values.xml
+background;obj\Release\90\res\mipmap-anydpi-v26\ic_launcher.xml
+background;obj\Release\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
+Button;obj\Release\90\res\layout\alterar.xml
+Button;obj\Release\90\res\layout\assinatura.xml
+Button;obj\Release\90\res\layout\ativacao.xml
+Button;obj\Release\90\res\layout\codbarras.xml
+Button;obj\Release\90\res\layout\falagbot.xml
+Button;obj\Release\90\res\layout\ferramentas.xml
+Button;obj\Release\90\res\layout\fragment_forceteste.xml
+Button;obj\Release\90\res\layout\kioskmode.xml
+Button;obj\Release\90\res\layout\menunfc.xml
+Button;obj\Release\90\res\layout\menusat.xml
+Button;obj\Release\90\res\layout\nfc.xml
+Button;obj\Release\90\res\layout\rede.xml
+Button;obj\Release\90\res\layout\sensor.xml
+Button;obj\Release\90\res\layout\sensor2.xml
+Button;obj\Release\90\res\layout\tef.xml
+Button;obj\Release\90\res\layout\teste.xml
+cache-path;C:\Projetos\gbot_XamarinAndroid (1)\gbot_XamarinAndroid\obj\Release\90\lp\35\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+cache-path;C:\Projetos\gbot_XamarinAndroid\obj\Release\90\lp\35\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+cache-path;C:\Projetos\Gbot_XamarinAndroid\obj\Release\90\lp\35\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+cache-path;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\35\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+cache-path;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\50\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+cache-path;C:\Users\marcosGuibson\Desktop\XamarinAndroid\xamarinandroid800\GBOT\obj\Release\90\lp\50\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+cache-path;C:\Users\marcosGuibson\Downloads\Gbot_XamarinAndroid\Gbot_XamarinAndroid\obj\Release\90\lp\35\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+CheckBox;obj\Release\90\res\layout\tef.xml
+color;C:\Projetos\gbot_XamarinAndroid (1)\gbot_XamarinAndroid\obj\Release\90\lp\129\jl\res\values\values.xml
+color;C:\Projetos\gbot_XamarinAndroid\obj\Release\90\lp\129\jl\res\values\values.xml
+color;C:\Projetos\Gbot_XamarinAndroid\obj\Release\90\lp\129\jl\res\values\values.xml
+color;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\129\jl\res\values\values.xml
+color;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\54\jl\res\values\values.xml
+color;C:\Users\marcosGuibson\Desktop\XamarinAndroid\xamarinandroid800\GBOT\obj\Release\90\lp\54\jl\res\values\values.xml
+color;obj\Release\90\res\values\colors.xml
+color;obj\Release\90\res\values\ic_launcher_background.xml
+com.google.android.material.textfield.TextInputEditText;obj\Release\90\res\layout\menunfc.xml
+com.google.android.material.textfield.TextInputEditText;obj\Release\90\res\layout\nfc.xml
+com.google.android.material.textfield.TextInputEditText;obj\Release\90\res\layout\tef.xml
+com.google.android.material.textfield.TextInputLayout;obj\Release\90\res\layout\menunfc.xml
+com.google.android.material.textfield.TextInputLayout;obj\Release\90\res\layout\nfc.xml
+declare-styleable;C:\Projetos\gbot_XamarinAndroid (1)\gbot_XamarinAndroid\obj\Release\90\lp\129\jl\res\values\values.xml
+declare-styleable;C:\Projetos\gbot_XamarinAndroid\obj\Release\90\lp\129\jl\res\values\values.xml
+declare-styleable;C:\Projetos\Gbot_XamarinAndroid\obj\Release\90\lp\129\jl\res\values\values.xml
+declare-styleable;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\129\jl\res\values\values.xml
+declare-styleable;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\54\jl\res\values\values.xml
+declare-styleable;C:\Users\marcosGuibson\Desktop\XamarinAndroid\xamarinandroid800\GBOT\obj\Release\90\lp\54\jl\res\values\values.xml
+dimen;C:\Projetos\gbot_XamarinAndroid (1)\gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\values\values.xml
+dimen;C:\Projetos\gbot_XamarinAndroid (1)\gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\values-w820dp-v13\values-w820dp-v13.xml
+dimen;C:\Projetos\gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\values\values.xml
+dimen;C:\Projetos\Gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\values\values.xml
+dimen;C:\Projetos\gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\values-w820dp-v13\values-w820dp-v13.xml
+dimen;C:\Projetos\Gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\values-w820dp-v13\values-w820dp-v13.xml
+dimen;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\119\jl\res\values\values.xml
+dimen;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\119\jl\res\values-w820dp-v13\values-w820dp-v13.xml
+dimen;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\4\jl\res\values\values.xml
+dimen;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\4\jl\res\values-w820dp-v13\values-w820dp-v13.xml
+dimen;C:\Users\marcosGuibson\Desktop\XamarinAndroid\xamarinandroid800\GBOT\obj\Release\90\lp\4\jl\res\values\values.xml
+dimen;C:\Users\marcosGuibson\Desktop\XamarinAndroid\xamarinandroid800\GBOT\obj\Release\90\lp\4\jl\res\values-w820dp-v13\values-w820dp-v13.xml
+EditText;obj\Release\90\res\layout\alterar.xml
+EditText;obj\Release\90\res\layout\assinatura.xml
+EditText;obj\Release\90\res\layout\ativacao.xml
+EditText;obj\Release\90\res\layout\falagbot.xml
+EditText;obj\Release\90\res\layout\ferramentas.xml
+EditText;obj\Release\90\res\layout\fragment_forceteste.xml
+EditText;obj\Release\90\res\layout\menunfc.xml
+EditText;obj\Release\90\res\layout\rede.xml
+EditText;obj\Release\90\res\layout\sensor.xml
+EditText;obj\Release\90\res\layout\tef.xml
+EditText;obj\Release\90\res\layout\teste.xml
+external-cache-path;C:\Projetos\gbot_XamarinAndroid (1)\gbot_XamarinAndroid\obj\Release\90\lp\35\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-cache-path;C:\Projetos\gbot_XamarinAndroid\obj\Release\90\lp\35\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-cache-path;C:\Projetos\Gbot_XamarinAndroid\obj\Release\90\lp\35\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-cache-path;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\35\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-cache-path;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\50\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-cache-path;C:\Users\marcosGuibson\Desktop\XamarinAndroid\xamarinandroid800\GBOT\obj\Release\90\lp\50\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-cache-path;C:\Users\marcosGuibson\Downloads\Gbot_XamarinAndroid\Gbot_XamarinAndroid\obj\Release\90\lp\35\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-path;C:\Projetos\gbot_XamarinAndroid (1)\gbot_XamarinAndroid\obj\Release\90\lp\35\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-path;C:\Projetos\gbot_XamarinAndroid\obj\Release\90\lp\35\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-path;C:\Projetos\Gbot_XamarinAndroid\obj\Release\90\lp\35\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-path;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\35\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-path;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\50\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-path;C:\Users\marcosGuibson\Desktop\XamarinAndroid\xamarinandroid800\GBOT\obj\Release\90\lp\50\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-path;C:\Users\marcosGuibson\Downloads\Gbot_XamarinAndroid\Gbot_XamarinAndroid\obj\Release\90\lp\35\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+foreground;obj\Release\90\res\mipmap-anydpi-v26\ic_launcher.xml
+foreground;obj\Release\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
+FrameLayout;obj\Release\90\res\layout\menunfc.xml
+FrameLayout;obj\Release\90\res\layout\nfc.xml
+ImageView;obj\Release\90\res\layout\activity_main.xml
+ImageView;obj\Release\90\res\layout\fragment_forceteste.xml
+ImageView;obj\Release\90\res\layout\fragment_formata.xml
+ImageView;obj\Release\90\res\layout\fragment_gravacao.xml
+ImageView;obj\Release\90\res\layout\fragment_leitura.xml
+ImageView;obj\Release\90\res\layout\model.xml
+integer;C:\Projetos\gbot_XamarinAndroid (1)\gbot_XamarinAndroid\obj\Release\90\lp\129\jl\res\values\values.xml
+integer;C:\Projetos\gbot_XamarinAndroid (1)\gbot_XamarinAndroid\obj\Release\90\lp\129\jl\res\values-hdpi-v4\values-hdpi-v4.xml
+integer;C:\Projetos\gbot_XamarinAndroid (1)\gbot_XamarinAndroid\obj\Release\90\lp\129\jl\res\values-xhdpi-v4\values-xhdpi-v4.xml
+integer;C:\Projetos\gbot_XamarinAndroid (1)\gbot_XamarinAndroid\obj\Release\90\lp\129\jl\res\values-xxhdpi-v4\values-xxhdpi-v4.xml
+integer;C:\Projetos\gbot_XamarinAndroid\obj\Release\90\lp\129\jl\res\values\values.xml
+integer;C:\Projetos\Gbot_XamarinAndroid\obj\Release\90\lp\129\jl\res\values\values.xml
+integer;C:\Projetos\gbot_XamarinAndroid\obj\Release\90\lp\129\jl\res\values-hdpi-v4\values-hdpi-v4.xml
+integer;C:\Projetos\Gbot_XamarinAndroid\obj\Release\90\lp\129\jl\res\values-hdpi-v4\values-hdpi-v4.xml
+integer;C:\Projetos\gbot_XamarinAndroid\obj\Release\90\lp\129\jl\res\values-xhdpi-v4\values-xhdpi-v4.xml
+integer;C:\Projetos\Gbot_XamarinAndroid\obj\Release\90\lp\129\jl\res\values-xhdpi-v4\values-xhdpi-v4.xml
+integer;C:\Projetos\gbot_XamarinAndroid\obj\Release\90\lp\129\jl\res\values-xxhdpi-v4\values-xxhdpi-v4.xml
+integer;C:\Projetos\Gbot_XamarinAndroid\obj\Release\90\lp\129\jl\res\values-xxhdpi-v4\values-xxhdpi-v4.xml
+integer;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\129\jl\res\values\values.xml
+integer;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\129\jl\res\values-hdpi-v4\values-hdpi-v4.xml
+integer;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\129\jl\res\values-xhdpi-v4\values-xhdpi-v4.xml
+integer;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\129\jl\res\values-xxhdpi-v4\values-xxhdpi-v4.xml
+integer;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\54\jl\res\values\values.xml
+integer;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\54\jl\res\values-hdpi-v4\values-hdpi-v4.xml
+integer;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\54\jl\res\values-xhdpi-v4\values-xhdpi-v4.xml
+integer;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\54\jl\res\values-xxhdpi-v4\values-xxhdpi-v4.xml
+integer;C:\Users\marcosGuibson\Desktop\XamarinAndroid\xamarinandroid800\GBOT\obj\Release\90\lp\54\jl\res\values\values.xml
+integer;C:\Users\marcosGuibson\Desktop\XamarinAndroid\xamarinandroid800\GBOT\obj\Release\90\lp\54\jl\res\values-hdpi-v4\values-hdpi-v4.xml
+integer;C:\Users\marcosGuibson\Desktop\XamarinAndroid\xamarinandroid800\GBOT\obj\Release\90\lp\54\jl\res\values-xhdpi-v4\values-xhdpi-v4.xml
+integer;C:\Users\marcosGuibson\Desktop\XamarinAndroid\xamarinandroid800\GBOT\obj\Release\90\lp\54\jl\res\values-xxhdpi-v4\values-xxhdpi-v4.xml
+item;C:\Projetos\gbot_XamarinAndroid (1)\gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\menu\menu_main.xml
+item;C:\Projetos\gbot_XamarinAndroid (1)\gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\menu\menu_sat_ger_lib.xml
+item;C:\Projetos\gbot_XamarinAndroid (1)\gbot_XamarinAndroid\obj\Release\90\lp\120\jl\res\values\values.xml
+item;C:\Projetos\gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\menu\menu_main.xml
+item;C:\Projetos\Gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\menu\menu_main.xml
+item;C:\Projetos\gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\menu\menu_sat_ger_lib.xml
+item;C:\Projetos\Gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\menu\menu_sat_ger_lib.xml
+item;C:\Projetos\gbot_XamarinAndroid\obj\Release\90\lp\120\jl\res\values\values.xml
+item;C:\Projetos\Gbot_XamarinAndroid\obj\Release\90\lp\120\jl\res\values\values.xml
+item;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\0\jl\res\values\values.xml
+item;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\119\jl\res\menu\menu_main.xml
+item;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\119\jl\res\menu\menu_sat_ger_lib.xml
+item;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\120\jl\res\values\values.xml
+item;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\4\jl\res\menu\menu_main.xml
+item;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\4\jl\res\menu\menu_sat_ger_lib.xml
+item;C:\Users\marcosGuibson\Desktop\XamarinAndroid\xamarinandroid800\GBOT\obj\Release\90\lp\4\jl\res\menu\menu_main.xml
+item;C:\Users\marcosGuibson\Desktop\XamarinAndroid\xamarinandroid800\GBOT\obj\Release\90\lp\4\jl\res\menu\menu_sat_ger_lib.xml
+item;obj\Release\90\res\values\strings.xml
+item;obj\Release\90\res\values\styles.xml
+LinearLayout;obj\Release\90\res\layout\alterar.xml
+LinearLayout;obj\Release\90\res\layout\assinatura.xml
+LinearLayout;obj\Release\90\res\layout\ativacao.xml
+LinearLayout;obj\Release\90\res\layout\codbarras.xml
+LinearLayout;obj\Release\90\res\layout\ferramentas.xml
+LinearLayout;obj\Release\90\res\layout\fragment_forceteste.xml
+LinearLayout;obj\Release\90\res\layout\fragment_formata.xml
+LinearLayout;obj\Release\90\res\layout\fragment_gravacao.xml
+LinearLayout;obj\Release\90\res\layout\fragment_leitura.xml
+LinearLayout;obj\Release\90\res\layout\layout1.xml
+LinearLayout;obj\Release\90\res\layout\menunfc.xml
+LinearLayout;obj\Release\90\res\layout\menusat.xml
+LinearLayout;obj\Release\90\res\layout\model.xml
+LinearLayout;obj\Release\90\res\layout\nfc.xml
+LinearLayout;obj\Release\90\res\layout\rede.xml
+LinearLayout;obj\Release\90\res\layout\sensor.xml
+LinearLayout;obj\Release\90\res\layout\tef.xml
+LinearLayout;obj\Release\90\res\layout\teste.xml
+LinearLayout;obj\Release\90\res\layout\testenfc.xml
+ListView;obj\Release\90\res\layout\activity_main.xml
+ListView;obj\Release\90\res\layout\codbarras.xml
+ListView;obj\Release\90\res\layout\sensor.xml
+ListView;obj\Release\90\res\layout\sensor2.xml
+ListView;obj\Release\90\res\layout\tef.xml
+ListView;obj\Release\90\res\layout\teste.xml
+menu;C:\Projetos\gbot_XamarinAndroid (1)\gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\menu\menu_main.xml
+menu;C:\Projetos\gbot_XamarinAndroid (1)\gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\menu\menu_sat_ger_lib.xml
+menu;C:\Projetos\gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\menu\menu_main.xml
+menu;C:\Projetos\Gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\menu\menu_main.xml
+menu;C:\Projetos\gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\menu\menu_sat_ger_lib.xml
+menu;C:\Projetos\Gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\menu\menu_sat_ger_lib.xml
+menu;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\119\jl\res\menu\menu_main.xml
+menu;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\119\jl\res\menu\menu_sat_ger_lib.xml
+menu;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\4\jl\res\menu\menu_main.xml
+menu;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\4\jl\res\menu\menu_sat_ger_lib.xml
+menu;C:\Users\marcosGuibson\Desktop\XamarinAndroid\xamarinandroid800\GBOT\obj\Release\90\lp\4\jl\res\menu\menu_main.xml
+menu;C:\Users\marcosGuibson\Desktop\XamarinAndroid\xamarinandroid800\GBOT\obj\Release\90\lp\4\jl\res\menu\menu_sat_ger_lib.xml
+paths;C:\Projetos\gbot_XamarinAndroid (1)\gbot_XamarinAndroid\obj\Release\90\lp\35\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+paths;C:\Projetos\gbot_XamarinAndroid\obj\Release\90\lp\35\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+paths;C:\Projetos\Gbot_XamarinAndroid\obj\Release\90\lp\35\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+paths;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\35\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+paths;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\50\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+paths;C:\Users\marcosGuibson\Desktop\XamarinAndroid\xamarinandroid800\GBOT\obj\Release\90\lp\50\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+paths;C:\Users\marcosGuibson\Downloads\Gbot_XamarinAndroid\Gbot_XamarinAndroid\obj\Release\90\lp\35\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+ProgressBar;obj\Release\90\res\layout\fragment_forceteste.xml
+ProgressBar;obj\Release\90\res\layout\fragment_gravacao.xml
+RadioButton;obj\Release\90\res\layout\tef.xml
+RadioGroup;obj\Release\90\res\layout\tef.xml
+RelativeLayout;C:\Projetos\gbot_XamarinAndroid (1)\gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\layout\activity_main.xml
+RelativeLayout;C:\Projetos\gbot_XamarinAndroid (1)\gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\layout\activity_sat_ger_lib.xml
+RelativeLayout;C:\Projetos\gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\layout\activity_main.xml
+RelativeLayout;C:\Projetos\Gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\layout\activity_main.xml
+RelativeLayout;C:\Projetos\gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\layout\activity_sat_ger_lib.xml
+RelativeLayout;C:\Projetos\Gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\layout\activity_sat_ger_lib.xml
+RelativeLayout;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\119\jl\res\layout\activity_main.xml
+RelativeLayout;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\119\jl\res\layout\activity_sat_ger_lib.xml
+RelativeLayout;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\4\jl\res\layout\activity_main.xml
+RelativeLayout;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\4\jl\res\layout\activity_sat_ger_lib.xml
+RelativeLayout;C:\Users\marcosGuibson\Desktop\XamarinAndroid\xamarinandroid800\GBOT\obj\Release\90\lp\4\jl\res\layout\activity_main.xml
+RelativeLayout;C:\Users\marcosGuibson\Desktop\XamarinAndroid\xamarinandroid800\GBOT\obj\Release\90\lp\4\jl\res\layout\activity_sat_ger_lib.xml
+RelativeLayout;obj\Release\90\res\layout\activity_main.xml
+RelativeLayout;obj\Release\90\res\layout\alterar.xml
+RelativeLayout;obj\Release\90\res\layout\assinatura.xml
+RelativeLayout;obj\Release\90\res\layout\ativacao.xml
+RelativeLayout;obj\Release\90\res\layout\rede.xml
+resources;C:\Projetos\gbot_XamarinAndroid (1)\gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\values\values.xml
+resources;C:\Projetos\gbot_XamarinAndroid (1)\gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\values-w820dp-v13\values-w820dp-v13.xml
+resources;C:\Projetos\gbot_XamarinAndroid (1)\gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\xml\device_filter.xml
+resources;C:\Projetos\gbot_XamarinAndroid (1)\gbot_XamarinAndroid\obj\Release\90\lp\120\jl\res\values\values.xml
+resources;C:\Projetos\gbot_XamarinAndroid (1)\gbot_XamarinAndroid\obj\Release\90\lp\129\jl\res\values\values.xml
+resources;C:\Projetos\gbot_XamarinAndroid (1)\gbot_XamarinAndroid\obj\Release\90\lp\129\jl\res\values-hdpi-v4\values-hdpi-v4.xml
+resources;C:\Projetos\gbot_XamarinAndroid (1)\gbot_XamarinAndroid\obj\Release\90\lp\129\jl\res\values-xhdpi-v4\values-xhdpi-v4.xml
+resources;C:\Projetos\gbot_XamarinAndroid (1)\gbot_XamarinAndroid\obj\Release\90\lp\129\jl\res\values-xxhdpi-v4\values-xxhdpi-v4.xml
+resources;C:\Projetos\gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\values\values.xml
+resources;C:\Projetos\Gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\values\values.xml
+resources;C:\Projetos\gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\values-w820dp-v13\values-w820dp-v13.xml
+resources;C:\Projetos\Gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\values-w820dp-v13\values-w820dp-v13.xml
+resources;C:\Projetos\gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\xml\device_filter.xml
+resources;C:\Projetos\Gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\xml\device_filter.xml
+resources;C:\Projetos\gbot_XamarinAndroid\obj\Release\90\lp\120\jl\res\values\values.xml
+resources;C:\Projetos\Gbot_XamarinAndroid\obj\Release\90\lp\120\jl\res\values\values.xml
+resources;C:\Projetos\gbot_XamarinAndroid\obj\Release\90\lp\129\jl\res\values\values.xml
+resources;C:\Projetos\Gbot_XamarinAndroid\obj\Release\90\lp\129\jl\res\values\values.xml
+resources;C:\Projetos\gbot_XamarinAndroid\obj\Release\90\lp\129\jl\res\values-hdpi-v4\values-hdpi-v4.xml
+resources;C:\Projetos\Gbot_XamarinAndroid\obj\Release\90\lp\129\jl\res\values-hdpi-v4\values-hdpi-v4.xml
+resources;C:\Projetos\gbot_XamarinAndroid\obj\Release\90\lp\129\jl\res\values-xhdpi-v4\values-xhdpi-v4.xml
+resources;C:\Projetos\Gbot_XamarinAndroid\obj\Release\90\lp\129\jl\res\values-xhdpi-v4\values-xhdpi-v4.xml
+resources;C:\Projetos\gbot_XamarinAndroid\obj\Release\90\lp\129\jl\res\values-xxhdpi-v4\values-xxhdpi-v4.xml
+resources;C:\Projetos\Gbot_XamarinAndroid\obj\Release\90\lp\129\jl\res\values-xxhdpi-v4\values-xxhdpi-v4.xml
+resources;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\0\jl\res\values\values.xml
+resources;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\119\jl\res\values\values.xml
+resources;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\119\jl\res\values-w820dp-v13\values-w820dp-v13.xml
+resources;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\119\jl\res\xml\device_filter.xml
+resources;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\120\jl\res\values\values.xml
+resources;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\129\jl\res\values\values.xml
+resources;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\129\jl\res\values-hdpi-v4\values-hdpi-v4.xml
+resources;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\129\jl\res\values-xhdpi-v4\values-xhdpi-v4.xml
+resources;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\129\jl\res\values-xxhdpi-v4\values-xxhdpi-v4.xml
+resources;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\4\jl\res\values\values.xml
+resources;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\4\jl\res\values-w820dp-v13\values-w820dp-v13.xml
+resources;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\4\jl\res\xml\device_filter.xml
+resources;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\54\jl\res\values\values.xml
+resources;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\54\jl\res\values-hdpi-v4\values-hdpi-v4.xml
+resources;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\54\jl\res\values-xhdpi-v4\values-xhdpi-v4.xml
+resources;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\54\jl\res\values-xxhdpi-v4\values-xxhdpi-v4.xml
+resources;C:\Users\marcosGuibson\Desktop\XamarinAndroid\xamarinandroid800\GBOT\obj\Release\90\lp\4\jl\res\values\values.xml
+resources;C:\Users\marcosGuibson\Desktop\XamarinAndroid\xamarinandroid800\GBOT\obj\Release\90\lp\4\jl\res\values-w820dp-v13\values-w820dp-v13.xml
+resources;C:\Users\marcosGuibson\Desktop\XamarinAndroid\xamarinandroid800\GBOT\obj\Release\90\lp\4\jl\res\xml\device_filter.xml
+resources;C:\Users\marcosGuibson\Desktop\XamarinAndroid\xamarinandroid800\GBOT\obj\Release\90\lp\54\jl\res\values\values.xml
+resources;C:\Users\marcosGuibson\Desktop\XamarinAndroid\xamarinandroid800\GBOT\obj\Release\90\lp\54\jl\res\values-hdpi-v4\values-hdpi-v4.xml
+resources;C:\Users\marcosGuibson\Desktop\XamarinAndroid\xamarinandroid800\GBOT\obj\Release\90\lp\54\jl\res\values-xhdpi-v4\values-xhdpi-v4.xml
+resources;C:\Users\marcosGuibson\Desktop\XamarinAndroid\xamarinandroid800\GBOT\obj\Release\90\lp\54\jl\res\values-xxhdpi-v4\values-xxhdpi-v4.xml
+resources;obj\Release\90\res\values\colors.xml
+resources;obj\Release\90\res\values\ic_launcher_background.xml
+resources;obj\Release\90\res\values\strings.xml
+resources;obj\Release\90\res\values\styles.xml
+ScrollView;obj\Release\90\res\layout\rede.xml
+Space;obj\Release\90\res\layout\ferramentas.xml
+Space;obj\Release\90\res\layout\menusat.xml
+Space;obj\Release\90\res\layout\teste.xml
+Spinner;obj\Release\90\res\layout\alterar.xml
+Spinner;obj\Release\90\res\layout\rede.xml
+string;C:\Projetos\gbot_XamarinAndroid (1)\gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\values\values.xml
+string;C:\Projetos\gbot_XamarinAndroid (1)\gbot_XamarinAndroid\obj\Release\90\lp\120\jl\res\values\values.xml
+string;C:\Projetos\gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\values\values.xml
+string;C:\Projetos\Gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\values\values.xml
+string;C:\Projetos\gbot_XamarinAndroid\obj\Release\90\lp\120\jl\res\values\values.xml
+string;C:\Projetos\Gbot_XamarinAndroid\obj\Release\90\lp\120\jl\res\values\values.xml
+string;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\0\jl\res\values\values.xml
+string;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\119\jl\res\values\values.xml
+string;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\120\jl\res\values\values.xml
+string;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\4\jl\res\values\values.xml
+string;C:\Users\marcosGuibson\Desktop\XamarinAndroid\xamarinandroid800\GBOT\obj\Release\90\lp\4\jl\res\values\values.xml
+string;obj\Release\90\res\values\strings.xml
+string-array;obj\Release\90\res\values\strings.xml
+style;C:\Projetos\gbot_XamarinAndroid (1)\gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\values\values.xml
+style;C:\Projetos\gbot_XamarinAndroid (1)\gbot_XamarinAndroid\obj\Release\90\lp\120\jl\res\values\values.xml
+style;C:\Projetos\gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\values\values.xml
+style;C:\Projetos\Gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\values\values.xml
+style;C:\Projetos\gbot_XamarinAndroid\obj\Release\90\lp\120\jl\res\values\values.xml
+style;C:\Projetos\Gbot_XamarinAndroid\obj\Release\90\lp\120\jl\res\values\values.xml
+style;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\0\jl\res\values\values.xml
+style;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\119\jl\res\values\values.xml
+style;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\120\jl\res\values\values.xml
+style;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\4\jl\res\values\values.xml
+style;C:\Users\marcosGuibson\Desktop\XamarinAndroid\xamarinandroid800\GBOT\obj\Release\90\lp\4\jl\res\values\values.xml
+style;obj\Release\90\res\values\styles.xml
+TableLayout;obj\Release\90\res\layout\alterar.xml
+TableLayout;obj\Release\90\res\layout\assinatura.xml
+TableLayout;obj\Release\90\res\layout\ativacao.xml
+TableLayout;obj\Release\90\res\layout\ferramentas.xml
+TableLayout;obj\Release\90\res\layout\rede.xml
+TableRow;obj\Release\90\res\layout\alterar.xml
+TableRow;obj\Release\90\res\layout\assinatura.xml
+TableRow;obj\Release\90\res\layout\ativacao.xml
+TableRow;obj\Release\90\res\layout\ferramentas.xml
+TableRow;obj\Release\90\res\layout\rede.xml
+TableRow;obj\Release\90\res\layout\teste.xml
+TextView;C:\Projetos\gbot_XamarinAndroid (1)\gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\layout\activity_main.xml
+TextView;C:\Projetos\gbot_XamarinAndroid (1)\gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\layout\activity_sat_ger_lib.xml
+TextView;C:\Projetos\gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\layout\activity_main.xml
+TextView;C:\Projetos\Gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\layout\activity_main.xml
+TextView;C:\Projetos\gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\layout\activity_sat_ger_lib.xml
+TextView;C:\Projetos\Gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\layout\activity_sat_ger_lib.xml
+TextView;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\119\jl\res\layout\activity_main.xml
+TextView;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\119\jl\res\layout\activity_sat_ger_lib.xml
+TextView;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\4\jl\res\layout\activity_main.xml
+TextView;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\4\jl\res\layout\activity_sat_ger_lib.xml
+TextView;C:\Users\marcosGuibson\Desktop\XamarinAndroid\xamarinandroid800\GBOT\obj\Release\90\lp\4\jl\res\layout\activity_main.xml
+TextView;C:\Users\marcosGuibson\Desktop\XamarinAndroid\xamarinandroid800\GBOT\obj\Release\90\lp\4\jl\res\layout\activity_sat_ger_lib.xml
+TextView;obj\Release\90\res\layout\activity_main.xml
+TextView;obj\Release\90\res\layout\alterar.xml
+TextView;obj\Release\90\res\layout\assinatura.xml
+TextView;obj\Release\90\res\layout\ativacao.xml
+TextView;obj\Release\90\res\layout\codbarras.xml
+TextView;obj\Release\90\res\layout\falagbot.xml
+TextView;obj\Release\90\res\layout\ferramentas.xml
+TextView;obj\Release\90\res\layout\fragment_forceteste.xml
+TextView;obj\Release\90\res\layout\fragment_formata.xml
+TextView;obj\Release\90\res\layout\fragment_gravacao.xml
+TextView;obj\Release\90\res\layout\fragment_leitura.xml
+TextView;obj\Release\90\res\layout\kioskmode.xml
+TextView;obj\Release\90\res\layout\menunfc.xml
+TextView;obj\Release\90\res\layout\menusat.xml
+TextView;obj\Release\90\res\layout\model.xml
+TextView;obj\Release\90\res\layout\nfc.xml
+TextView;obj\Release\90\res\layout\rede.xml
+TextView;obj\Release\90\res\layout\sensor.xml
+TextView;obj\Release\90\res\layout\sensor2.xml
+TextView;obj\Release\90\res\layout\tef.xml
+TextView;obj\Release\90\res\layout\teste.xml
+usb-device;C:\Projetos\gbot_XamarinAndroid (1)\gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\xml\device_filter.xml
+usb-device;C:\Projetos\gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\xml\device_filter.xml
+usb-device;C:\Projetos\Gbot_XamarinAndroid\obj\Release\90\lp\119\jl\res\xml\device_filter.xml
+usb-device;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\119\jl\res\xml\device_filter.xml
+usb-device;C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\lp\4\jl\res\xml\device_filter.xml
+usb-device;C:\Users\marcosGuibson\Desktop\XamarinAndroid\xamarinandroid800\GBOT\obj\Release\90\lp\4\jl\res\xml\device_filter.xml

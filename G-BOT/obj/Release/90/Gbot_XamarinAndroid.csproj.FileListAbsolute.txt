@@ -1,0 +1,9 @@
+C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\build.props
+C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\adb.props
+C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\Gbot_XamarinAndroid.csprojAssemblyReference.cache
+C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\_VerifyXamarinAndroidSupportVersions.stamp
+C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\stamp\_BuildLibraryImportsCache.stamp
+C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\res.flag
+C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\stamp\_AndroidXJetifyEmbeddedFiles.stamp
+C:\Projetos\XamarinAndroid\GBOT\obj\Release\90\androidx\_AndroidXJetifyEmbeddedFiles.jetify

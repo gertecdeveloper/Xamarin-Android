@@ -1,0 +1,313 @@
+<LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center_horizontal" android:orientation="vertical" android:padding="16dp" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"><LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"><LinearLayout android:orientation="vertical" android:layout_marginRight="20dp" android:layout_width="wrap_content" android:layout_height="wrap_content"><LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:text="Código de ativação:" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="130dp" android:layout_height="wrap_content" android:textSize="14dp" android:textStyle="bold" /><EditText android:id="@+id/txtCodAtivacao" android:layout_width="160dp" android:layout_height="wrap_content" android:imeOptions="actionDone" /></LinearLayout><LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:text="Tipo de Rede:" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="120dp" android:layout_height="wrap_content" android:textSize="18dp" android:textStyle="bold" /><Spinner android:id="@+id/tipoRede" android:layout_width="match_parent" android:layout_height="wrap_content" /></LinearLayout><LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:text="IP SAT:" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="110dp" android:layout_height="wrap_content" android:textSize="14dp" android:textStyle="bold" /><EditText android:id="@+id/txtIp" android:layout_width="160dp" android:layout_height="wrap_content" android:imeOptions="actionDone" /></LinearLayout><LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:text="Máscara:" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="110dp" android:layout_height="wrap_content" android:textSize="14dp" android:textStyle="bold" /><EditText android:id="@+id/txtMascara" android:layout_width="160dp" android:layout_height="wrap_content" android:imeOptions="actionDone" /></LinearLayout><LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:text="Getway:" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="110dp" android:layout_height="wrap_content" android:textSize="14dp" android:textStyle="bold" /><EditText android:id="@+id/txtGateway" android:layout_width="160dp" android:layout_height="wrap_content" android:imeOptions="actionDone" /></LinearLayout></LinearLayout><LinearLayout android:orientation="vertical" android:layout_marginRight="20dp" android:layout_width="wrap_content" android:layout_height="wrap_content"><LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:text="DNS:" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="50dp" android:layout_height="wrap_content" android:textSize="18dp" android:textStyle="bold" /><Spinner android:id="@+id/optDns" android:layout_width="match_parent" android:layout_height="wrap_content" /></LinearLayout><LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:text="DNS 1:" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="50dp" android:layout_height="wrap_content" android:textSize="14dp" android:textStyle="bold" /><EditText android:id="@+id/txtDns" android:layout_width="160dp" android:layout_height="wrap_content" android:imeOptions="actionDone" /></LinearLayout><LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:text="DNS 2:" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="50dp" android:layout_height="wrap_content" android:textSize="14dp" android:textStyle="bold" /><EditText android:id="@+id/txtDns2" android:layout_width="160dp" android:layout_height="wrap_content" android:imeOptions="actionDone" /></LinearLayout></LinearLayout><LinearLayout android:orientation="vertical" android:layout_marginRight="20dp" android:layout_width="wrap_content" android:layout_height="wrap_content"><LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:text="Proxy:" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="60dp" android:layout_height="wrap_content" android:textSize="18dp" android:textStyle="bold" /><Spinner android:id="@+id/optProxy" android:layout_width="match_parent" android:layout_height="wrap_content" /></LinearLayout><LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:text="Proxy Ip:" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="60dp" android:layout_height="wrap_content" android:textSize="14dp" android:textStyle="bold" /><EditText android:id="@+id/txtProxyIp" android:layout_width="160dp" android:layout_height="wrap_content" android:imeOptions="actionDone" /></LinearLayout><LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:text="Porta:" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="60dp" android:layout_height="wrap_content" android:textSize="14dp" android:textStyle="bold" /><EditText android:id="@+id/txtPorta" android:layout_width="160dp" android:layout_height="wrap_content" android:imeOptions="actionDone" /></LinearLayout><LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:text="User:" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="60dp" android:layout_height="wrap_content" android:textSize="14dp" android:textStyle="bold" /><EditText android:id="@+id/txtUser" android:layout_width="160dp" android:layout_height="wrap_content" android:imeOptions="actionDone" /></LinearLayout><LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:text="Password:" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="70dp" android:layout_height="wrap_content" android:textSize="14dp" android:textStyle="bold" /><EditText android:id="@+id/txtPassword" android:layout_width="160dp" android:layout_height="wrap_content" android:imeOptions="actionDone" /></LinearLayout></LinearLayout></LinearLayout><Button android:text="Enviar" android:id="@+id/buttonEnviar" android:layout_width="350dp" android:layout_height="wrap_content" android:gravity="center_horizontal" android:layout_marginTop="30dp" /></LinearLayout><!--<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fadeScrollbars="false">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:stretchColumns="3"
+        android:gravity="right">
+
+        <TableRow
+            android:layout_marginTop="5sp"
+            android:layout_marginRight="20sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5sp"
+                android:text="Código de Ativação"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:layout_column="1"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtCodAtivacao"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionDone"
+                android:inputType="text">
+
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="15sp"
+            android:layout_marginRight="20sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5sp"
+                android:text="Tipo de rede"
+                android:layout_column="1"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/tipoRede"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="15sp"
+            android:layout_marginRight="20sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5sp"
+                android:text="IP SAT"
+                android:layout_column="1"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtIp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionDone"
+                android:inputType="text|number">
+
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="15sp"
+            android:layout_marginRight="20sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5sp"
+                android:text="Máscara"
+                android:layout_column="1"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtMascara"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionDone"
+                android:inputType="text|number"></EditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="15sp"
+            android:layout_marginRight="20sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5sp"
+                android:text="Gateway"
+                android:layout_column="1"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtGateway"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionDone"
+                android:inputType="text|number"></EditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="2sp"
+            android:layout_marginRight="20sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5sp"
+                android:text="DNS"
+                android:layout_column="2"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/optDns"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="15sp"
+            android:layout_marginRight="20sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5sp"
+                android:text="DNS 1"
+                android:layout_column="2"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtDns"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionDone"
+                android:inputType="number">
+
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="15sp"
+            android:layout_marginRight="20sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5sp"
+                android:text="DNS 2"
+                android:layout_column="2"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtDns2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionDone"
+                android:inputType="number"></EditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="2sp"
+            android:layout_marginRight="20sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5sp"
+                android:text="Proxy"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/optProxy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="15sp"
+            android:layout_marginRight="20sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5sp"
+                android:text="Proxy IP"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtProxyIp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionDone"
+                android:inputType="number">
+
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="15sp"
+            android:layout_marginRight="20sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5sp"
+                android:text="Porta"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtPorta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionDone"
+                android:inputType="number"></EditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="15sp"
+            android:layout_marginRight="20sp">
+
+            <TextView
+               android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5sp"
+                android:text="User"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionDone"
+                android:inputType="text"></EditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="15sp"
+            android:layout_marginRight="20sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5sp"
+                android:text="Password"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionDone"
+                android:inputType="text"></EditText>
+        </TableRow>
+
+        <RelativeLayout
+            android:layout_marginTop="15sp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/buttonEnviar"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#D6D4D4"
+                android:text="Enviar"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </TableLayout>
+
+</ScrollView> 
+-->
